@@ -53,6 +53,7 @@ type Block struct {
 	Hash         string    `json:"hash"`
 	Height       int       `json:"height"`
 	Depth        int       `json:"depth"`
+	Size         int       `json:"size"`
 	Chain        string    `json:"chain"`
 	Total        big.Int   `json:"total"`
 	Fees         big.Int   `json:"fees"`
